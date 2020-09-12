@@ -1,0 +1,24 @@
+.bg_black {
+    background-color: black;
+}
+
+.lander_section {
+    background-image: url('../../public/quartz2.jpg');
+    /* background-position-x: '25%'; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.50;
+}
+@media (max-width: 1024px) {
+    .lander_section {
+        background-position-x: 70%;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .lander_section {
+        background-position-x: 75%;
+    }
+}
+
