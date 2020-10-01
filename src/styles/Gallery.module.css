@@ -1,0 +1,7 @@
+.gallery_card {
+    height: 400px;
+    width: 400px;
+}
+.gallery_thumbnail {
+    object-fit: cover;
+}

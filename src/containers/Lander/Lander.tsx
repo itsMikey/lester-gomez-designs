@@ -1,5 +1,5 @@
 import { Section, ESectionSize } from '@Components/Layout/Section'
-import styles from '../../styles/Layout.module.css';
+import styles from '@Styles/Layout.module.css';
 
 export const Lander = () => {
     return <div>

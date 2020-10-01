@@ -25,7 +25,10 @@ export default function Home() {
           <Navbar links={navLinks} />
           <Lander />
           <About />
-          <Gallery/>
+          <div className="border-t-2 border-gray-600 ">
+            <Gallery/>
+          </div>
+              
       </main>
 
       <footer className={styles.footer}>
